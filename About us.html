@@ -6,9 +6,36 @@
     <title>website</title>
     <link rel="stylesheet" href="jane.css">
     <style>
-        h1{
-            color: red;
+        *{
+            margin: 0px;
+            padding: 0;
+            box-sizing: border-box;
+
         }
+        body{
+            display: flex;
+            justify-content: center;
+            
+        }
+         .wrapper{
+            margin: 10px auto;
+            width: 70%;
+        }
+        .text-box{
+            color: white;
+            margin-top: 50px;
+        }
+        .text-box h3{
+            font-size: 30px;}
+         img{
+            height: 350px;
+            width: 350px;
+            margin-left:350px;
+
+             border-radius: 10px;
+           
+        }
+        
     </style>
 </head>
 <body>
@@ -20,22 +47,40 @@
             <ul>
                 <li><a href="jane.html">HOME</a></li>
                 <li><a href="About us.html">ABOUT</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">DESIGN</a></li>
+                <li><a href="services.html">SERVICE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="design.html">DESIGN</a></li>
+                 <div class="h2">
+                    <h2 class="logo"><marquee><b>A&J </b><small>Decorators</small></marquee></h2>
+                </div> 
             </ul>
         </div>
-        <div class="search">
-            <input class="srch" type="search" name="" placeholder="type text">
-            <a href="#"><button class="btn">search</button></a>
-        </div>
+        
         
        
     </div>
-    <div class="h2">
-        <h2 class="logo"><marquee><b>A&J </b><small>Decorators</small></marquee></h2>
-    </div>
-    <h1 id="us">ABOUT US</h1>
+   
     
+    <h1 id="us">ABOUT US</h1>
+    <div class="wrapper">
+        <div class="text-box">
+            <h3>The ultimate thinkable services of ur thoughts</h3>
+            <p>
+                With a team of experienced workers,<br>
+                we design a themed event that adds wow factor as guests enter venue.<br>
+                    We turn vision into reality to challenge the norm.<br>
+                    our lines are available 24hrs.<br>
+                    Our offices are always open from MON-SUN
+                    <button><a href="images/flyer.jpg">flyer</a></button><br>
+            </p>
+        </div>
+    </div>
+        <img src="images/staff.jpeg" alt="" class="center">
+   
 </body>
+<div class="footer">
+    <footer">
+   <div><p>Catch us on <br>+2567589227<br>arose@gmail.com <br> The ultimate services at ur catch</p></div>
+    </footer>
+</div>
 </html>
